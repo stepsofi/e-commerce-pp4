@@ -1,15 +1,13 @@
-package org.example.creditcard;
-
-import org.example.creditcard.productcatalog.MapProductStorage;
-import org.example.creditcard.productcatalog.ProductCatalog;
-import org.example.creditcard.productcatalog.ProductStorage;
+import productcatalog.MapProductStorage;
+import org.example.creditcard.NameProvider;
+import productcatalog.ProductCatalog;
+import productcatalog.ProductStorage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.example.creditcard.NameProvider;
-import org.example.creditcard.MapProductStorage;
-import org.example.creditcard.ProductCatalog;
-import org.example.creditcard.ProductStorage;
+import productcatalog.MapProductStorage;
+import productcatalog.ProductCatalog;
+import productcatalog.ProductStorage;
 
 import java.math.BigDecimal;
 
